@@ -4,7 +4,7 @@ wk 4
 Aplication #2
 Questions
 """
-# general imports
+# imports
 import urllib2
 import random
 import time
@@ -12,8 +12,6 @@ import math
 import UPATrial
 import numpy
 from collections import deque
-
-# Desktop imports
 import matplotlib.pyplot as plt
 
 
