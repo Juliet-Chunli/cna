@@ -1,6 +1,7 @@
 """
+Algorithmic Thinking 1
+wk 4
 Aplication #2
-
 Questions
 """
 # general imports
