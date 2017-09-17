@@ -12,11 +12,6 @@ import UPATrial
 import numpy
 from collections import deque
 
-# CodeSkulptor import
-#import simpleplot
-#import codeskulptor
-#codeskulptor.set_timeout(60)
-
 # Desktop imports
 import matplotlib.pyplot as plt
 
@@ -304,11 +299,13 @@ def compute_resilience(ugraph, attack_order):
 	# print "\nresilience:", resilience
 	return resilience
 
-
+# Begin Test calls -------------------------------------
 # test random_order
 # test_random_order()
 # test_gen_er_graph()
+# End Test calls ---------------------------------------
 
+# Questions---------------------------------------------
 # 1.  probability = .004 m = 2 (# edges) 
 probability = .004
 num_nodes = 1200
