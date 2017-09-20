@@ -135,8 +135,8 @@ def gen_er_graph(num_nodes, probability):
   	for node in range(num_nodes):
   		node_set = set()	# edges
   		for neighbor in range(num_nodes):
-  			a = random.random()			
-  			if node != neighbor and a < probability:
+  			random_value = random.random()			
+  			if node != neighbor and random_value < probability:
   				node_set.add(neighbor)
   		dict_graph[node] = node_set
 
